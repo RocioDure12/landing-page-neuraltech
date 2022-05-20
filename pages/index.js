@@ -6,7 +6,7 @@ import Navbar from '../components/navbar'
 import styles from '../styles/Home.module.scss'
 import Footer from '../components/Footer'
 import Sponsors from '../components/Sponsors'
-
+import Certificaciones from '../components/Certificaciones'
 
 import {
   faCarTunnel,
@@ -17,6 +17,8 @@ import {
   faTrafficLight,
   faWineBottle,
 } from "@fortawesome/free-solid-svg-icons";
+import Nosotros from '../components/Nosotros'
+
 
 
 
@@ -33,6 +35,8 @@ export default function Home() {
       </Head>
 
       <Navbar />
+      <Hero/>
+
       <Card
         title="Tótem indicador de velocidad"
         icon={faCarTunnel}
@@ -70,7 +74,11 @@ export default function Home() {
         icon={faWineBottle}
         description="Dispositivos de última generacion para la deteccion de alcohol en sangre"
       />
+
+      <Nosotros />
       <Sponsors />
+      <Certificaciones />
+
       <Footer />
 
     </div>

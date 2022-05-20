@@ -1,0 +1,17 @@
+@import "variables";
+
+.container{
+    display: flex;
+    background-color: $color-primary;
+    color:$color-ligth;
+    
+    .container-info{
+    text-align: justify;
+    padding: 10px;
+
+    .container-img{
+        background-color: $color-ligth;
+    }
+
+    }
+}
