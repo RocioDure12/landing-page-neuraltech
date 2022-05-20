@@ -1,0 +1,17 @@
+@import "variables.scss";
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $color-primary;
+    height: 150px;
+
+    a {
+        padding: 35px 10px 35px 10px;
+        color: $color-ligth;
+    }
+.icono{
+    font-size:30px;
+}
+}
