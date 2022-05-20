@@ -4,7 +4,7 @@ export default () => {
     return (
         <nav className={styles["nav-bar"]}>
             <ul>
-                <li><a href=''>Servicios y productos</a></li>
+                <li><a href=''>Servicios</a></li>
                 <li><a href=''>Certificaciones</a></li>
                 <li><a href=''>Sponsors</a></li>
                 <li><a href=''>Nosotros</a></li>
