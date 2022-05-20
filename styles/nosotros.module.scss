@@ -2,15 +2,19 @@
 
 .container{
     display: flex;
-    background-color: $color-primary;
     color:$color-ligth;
+    color:black;
+    height: 60vh;
+    background-color: #eeee;
     
     .container-info{
     text-align: justify;
     padding: 10px;
+   
+
 
     .container-img{
-        background-color: $color-ligth;
+
     }
 
     }

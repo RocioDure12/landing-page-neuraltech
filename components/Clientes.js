@@ -1,11 +1,11 @@
-import styles from '../styles/sponsors.module.scss';
+import styles from '../styles/clientes.module.scss';
 
 export default ({ }) => {
 
     return (
         <>
-        <h2 className={styles.h2}>Sponsors</h2>
-        <div className={styles.sponsors}>
+        <h2 id="clientes" className={styles.h2}>Nuestros clientes</h2>
+        <div  className={styles.sponsors}>
             <div className={styles.container}>
                 <img src="images/armaselektronik.jpg"></img>
                 <img src="images/bioceanica.jpg"></img>

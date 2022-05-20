@@ -9,7 +9,7 @@ import {
 export default ({ }) => {
 
     return (
-        <>
+        <div id="certificaciones" className={styles.container}>
             <Card
                 icon={faAward}
                 title="Consejo Federal de Seguridad Vial Comisión Nacional del Tránsito y la Seguridad Vial"
@@ -29,7 +29,7 @@ export default ({ }) => {
                 title="INTI. Instituto Nacional de Tecnología Industrial"
                 description="Laboratorio encargado de certificar las verificaciones primitivas y periódicas exigidas por la Ley Nacional de Metrología"
             />
-        </>
+        </div>
 
 
     )

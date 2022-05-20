@@ -4,11 +4,12 @@ export default () => {
     return (
         <nav className={styles["nav-bar"]}>
             <ul>
-                <li><a href=''>Servicios</a></li>
-                <li><a href=''>Certificaciones</a></li>
-                <li><a href=''>Sponsors</a></li>
-                <li><a href=''>Nosotros</a></li>
-                <li><a href=''>Contacto</a></li>
+                <li><img alt="logo" src='images/logo.jpeg'/></li>
+                <li><a href='#servicios'>Servicios</a></li>
+                <li><a href="#certificaciones">Certificaciones</a></li>
+                <li><a href='#clientes'>Clientes</a></li>
+                <li><a href='#nosotros'>Nosotros</a></li>
+                <li><a href='#contacto'>Contacto</a></li>
             </ul>
 
         </nav >
