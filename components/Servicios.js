@@ -15,8 +15,9 @@ export default () => {
 
     return (
         
-        <div id="servicios" className={styles.container}>
+        <div id="servicios" className={styles.servicios}>
 
+            <div className={styles.container}>
             <Card
                 title="Tótem indicador de velocidad"
                 icon={faCarTunnel}
@@ -25,7 +26,7 @@ export default () => {
             <Card
                 title="Red Light Enforcement "
                 icon={faTrafficLight}
-                description="Sistema de semáforos inteligentes para el control de cruce con luz roja"
+                description="Sistema de camaras inteligentes para el control de cruce con luz roja"
             />
             <Card
                 title="LPR"
@@ -54,6 +55,8 @@ export default () => {
                 icon={faWineBottle}
                 description="Dispositivos de última generacion para la deteccion de alcohol en sangre"
             />
+            </div>
+
         </div>
     )
 }

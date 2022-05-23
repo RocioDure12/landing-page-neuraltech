@@ -1,13 +1,13 @@
 @import "variables.scss";
 
 .nav-bar {
-    background-color: $color-ligth;
+    background-color: $color-primary;
     display: flex;
     justify-content: flex-start;
-    position: relative;
+    position: sticky;
+    top: 0;
     height: 70px;
     font-size: 18px;
-    color: $color-dark;
 
     ul {
         display: flex;
@@ -16,18 +16,13 @@
         li {
             padding: 0.75rem;
             a {
-                color: $color-dark;
+                color: #ffff;
                 height: 100%;
             }
         }
     }
 
-    a:hover {
-        color: $color-primary;
-    }
-    
     img {
         width: 40px;
-       
     }
 }

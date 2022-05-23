@@ -2,6 +2,7 @@ import styles from '../styles/form.module.scss';
 export default () => {
 
     return (
+        <>
         <div  className={styles["container-form"]}>
         <form id="contacto" action="/send-data-here" method="post" className={styles.form}>
             <h2>Contacto</h2>
@@ -15,5 +16,6 @@ export default () => {
             <button type="submit">Enviar</button>
         </form>
         </div>
+        </>
     )
 }

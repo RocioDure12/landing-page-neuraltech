@@ -1,5 +1,5 @@
 @import "variables";
-.container-form{
+.container-form {
     background-color: #eeeeee;
     height: 90vh;
     display: flex;
@@ -9,15 +9,11 @@
 .form {
     display: flex;
     flex-direction: column;
-    width: 340px;
-    height: 440px;
+    width: 400px;
     background: #e6e6e6;
     border-radius: 8px;
     box-shadow: 0 0 40px -10px #000;
-    margin: calc(50vh - 220px) auto;
     padding: 20px 30px;
-    max-width: calc(100vw - 40px);
-    position: relative;
     color: #78788c;
 
     h2 {
