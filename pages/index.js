@@ -1,17 +1,11 @@
 import Head from 'next/head'
 import Hero from '../components/hero'
 import Navbar from '../components/navbar'
-import styles from '../styles/Home.module.scss'
 import Footer from '../components/Footer'
 import Clientes from '../components/Clientes'
 import Certificaciones from '../components/Certificaciones'
-import Form from '../components/Form'
-import Nosotros from '../components/Nosotros'
+import Contacto from '../components/Contacto'
 import Servicios from '../components/Servicios'
-import Layout from '../components/Layout'
-
-
-
 
 export default function Home() {
   return (
@@ -22,15 +16,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Navbar />
+      <Navbar/>
       <Hero />
-      <Layout>
-        <Servicios/>
-        <Clientes />
-        <Certificaciones />
-        <Form />
-      </Layout>
-
+      <Servicios />
+      <Clientes />
+      <Certificaciones />
+      <Contacto />
       <Footer />
 
     </>

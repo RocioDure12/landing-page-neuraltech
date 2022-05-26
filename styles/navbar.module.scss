@@ -1,6 +1,10 @@
 @import "variables.scss";
-
+.menu{
+    display: none;
+}
 .nav-bar {
+    display: grid;
+    grid-auto-columns: 1fr;
     background-color: $color-primary;
     display: flex;
     justify-content: flex-start;
@@ -25,4 +29,24 @@
     img {
         width: 40px;
     }
+}
+
+@media screen and (max-width: 768px) {
+    .nav-bar{
+        display: none;
+    }
+.menu{
+    display: grid;
+    grid-auto-columns: 1fr;
+    background-color: $color-primary;
+    top: 0;
+    height: 70px;
+    font-size: 18px;
+    background-color: $color-primary;
+    position: fixed;
+    width: 3rem;
+    z-index: 999;
+    cursor: pointer;
+
+}
 }
