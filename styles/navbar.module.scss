@@ -28,8 +28,7 @@
         width: 40px;
     }
 }
-.appbar 
-{
+.appbar {
     display: none;
 }
 
@@ -37,18 +36,23 @@
     .nav-bar {
         display: none;
     }
-    .appbar 
-    {
+    .appbar {
+        height: 70px;
         display: block;
         width: 100%;
         background: $color-primary;
-        color: white;
-        padding: 10px;
+        color: $color-ligth;
+        display: flex;
+        align-items: center;
+        padding-right:20px;
+        padding-left: 20px;
+        font-size:35px;
+     
     }
 
     .menu a {
         display: block;
-        padding: 10px;
+        padding: 10PX;
     }
     .menu {
         background: $color-primary;

@@ -25,10 +25,10 @@ export default () => {
             </div>
             <nav className={styles.menu} style={{ display: menuVisible ? 'block' : 'none' }}>
                 <ul>
-                    <li><a href='#servicios'>Servicios</a></li>
-                    <li><a href="#certificaciones">Certificaciones</a></li>
-                    <li><a href='#clientes'>Clientes</a></li>
-                    <li><a href='#contacto'>Contacto</a></li>
+                    <li><a onClick={toggleMenu} href='#servicios'>Servicios</a></li>
+                    <li><a onClick={toggleMenu} href="#certificaciones">Certificaciones</a></li>
+                    <li><a onClick={toggleMenu} href='#clientes'>Clientes</a></li>
+                    <li><a onClick={toggleMenu} href='#contacto'>Contacto</a></li>
                 </ul>
                 <div className={styles["close-button"]} onClick={toggleMenu}>
                 <FontAwesomeIcon icon={faXmark} />
