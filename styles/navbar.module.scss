@@ -28,14 +28,18 @@
         width: 40px;
     }
 }
-
+.appbar 
+{
+    display: none;
+}
 
 @media screen and (max-width: 768px) {
     .nav-bar {
         display: none;
     }
-
-    .appbar {
+    .appbar 
+    {
+        display: block;
         width: 100%;
         background: $color-primary;
         color: white;
