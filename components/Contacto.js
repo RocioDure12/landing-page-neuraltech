@@ -19,7 +19,7 @@ export default ({ }) => {
     const handleSubmit = (e) => {
         e.preventDefault()
         alert(nombre)
-        location.href = `https://api.whatsapp.com/send?phone=3434567683&text=*Nombre*: ${nombre}%0a*Consulta:* ${asunto}%0a*Descripcion:* ${mensaje} `
+        location.href = `https://api.whatsapp.com/send?phone=3434152661&text=*Nombre*: ${nombre}%0a*Consulta:* ${asunto}%0a*Descripcion:* ${mensaje} `
 
 
     }
