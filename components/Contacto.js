@@ -19,7 +19,7 @@ export default ({ }) => {
                     <input type="text" id="nombre" name="nombre" placeholder="Tu nombre.." />
 
                     <label for="asunto">Asunto</label>
-                    <input type="text" id="asunto" name="asunto" placeholder="consulta.." />
+                    <input type="text" id="asunto" name="asunto" placeholder="Asunto.." />
 
                     <label for="mensaje">Mensaje</label>
                     <textarea name="mensaje" id="mensaje" cols="20" rows="10" placeholder="Escriba su mensaje aqui" aria-label="mensaje" />
