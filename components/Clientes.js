@@ -4,8 +4,8 @@ export default ({ }) => {
 
     return (
 
-        <div className={styles.clientes}>
-            <h2 id="clientes" className={styles.h2}>Nuestros clientes</h2>
+        <div id="clientes" className={styles.clientes}>
+            <h2 className={styles.h2}>Nuestros clientes</h2>
 
             <div className={styles.container}>
                 <div className={styles["container-img"]}>

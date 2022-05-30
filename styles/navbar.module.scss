@@ -5,16 +5,20 @@
     grid-auto-columns: 1fr;
     background-color: $color-primary;
     display: flex;
-    justify-content: flex-start;
+    align-items: center;
+    justify-content: space-between;
     position: sticky;
     top: 0;
     height: 70px;
     font-size: 18px;
+    z-index: 2;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 
     ul {
         display: flex;
         justify-content: center;
         align-items: center;
+        padding-right: 15px;
         li {
             padding: 0.75rem;
             a {
@@ -23,9 +27,11 @@
             }
         }
     }
-
-    img {
-        width: 40px;
+    div {
+        padding-left: 15px;
+        img {
+            width: 170px;
+        }
     }
 }
 .appbar {
@@ -37,22 +43,33 @@
         display: none;
     }
     .appbar {
-        height: 70px;
+        z-index: 2;
+        top: 0;
+        left: 0;
+        position: fixed;
         display: block;
+        height: 70px;
         width: 100%;
         background: $color-primary;
         color: $color-ligth;
         display: flex;
         align-items: center;
-        padding-right:20px;
+        padding-right: 20px;
+        justify-content: space-between;
         padding-left: 20px;
-        font-size:35px;
-     
+        font-size: 35px;
+
+        div {
+            padding-right: 5px;
+            img {
+                width: 170px;
+            }
+        }
     }
 
     .menu a {
         display: block;
-        padding: 10PX;
+        padding: 10px;
     }
     .menu {
         background: $color-primary;

@@ -5,7 +5,7 @@ import {
     faXmark
 } from "@fortawesome/free-solid-svg-icons";
 
-import React, { useState} from 'react';
+import React, { useState } from 'react';
 
 
 
@@ -21,9 +21,12 @@ export default () => {
 
         <>
             <div className={styles.appbar}>
-                <div onClick={toggleMenu}><FontAwesomeIcon icon={faBars}/></div>
+                <div onClick={toggleMenu}><FontAwesomeIcon icon={faBars} /></div>
+                <div><img alt="logo" src='images/neuraltech.png' /></div>
             </div>
+           
             <nav className={styles.menu} style={{ display: menuVisible ? 'block' : 'none' }}>
+               
                 <ul>
                     <li><a onClick={toggleMenu} href='#servicios'>Servicios</a></li>
                     <li><a onClick={toggleMenu} href="#certificaciones">Certificaciones</a></li>
@@ -31,13 +34,13 @@ export default () => {
                     <li><a onClick={toggleMenu} href='#contacto'>Contacto</a></li>
                 </ul>
                 <div className={styles["close-button"]} onClick={toggleMenu}>
-                <FontAwesomeIcon icon={faXmark} />
+                    <FontAwesomeIcon icon={faXmark} />
                 </div>
             </nav>
 
             <nav className={styles["nav-bar"]}>
+                <div><img alt="logo" src='images/neuraltech.png' /></div>
                 <ul>
-                    <li><img alt="logo" src='images/logo.jpeg' /></li>
                     <li><a href='#servicios'>Servicios</a></li>
                     <li><a href="#certificaciones">Certificaciones</a></li>
                     <li><a href='#clientes'>Clientes</a></li>

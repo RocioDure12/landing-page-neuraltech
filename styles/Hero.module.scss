@@ -1,6 +1,6 @@
 @import "variables";
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/hero6.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.85)), url("/images/hero6.jpg");
     height: 90vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -15,7 +15,7 @@
         transform: translate(-50%, -50%);
         color: $color-ligth;
         font-size: 30px;
-        font-weight: 400;
+        font-weight: 800;
     }
 }
 
