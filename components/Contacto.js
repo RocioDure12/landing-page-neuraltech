@@ -1,5 +1,7 @@
 import styles from '../styles/contacto.module.scss';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import React, { useState } from 'react';
+
 import {
     faFacebook, faInstagram, faLinkedin
 } from "@fortawesome/free-brands-svg-icons"
@@ -10,21 +12,46 @@ import {
 
 
 export default ({ }) => {
+    const [nombre, setNombre] = useState();
+    const [asunto, setAsunto] = useState();
+    const [mensaje, setMensaje] = useState();
+
+    const handleSubmit = (e) => {
+        e.preventDefault()
+        alert(nombre)
+        location.href = `https://api.whatsapp.com/send?phone=3434567683&text=*Nombre*: ${nombre}%0a*Consulta:* ${asunto}%0a*Descripcion:* ${mensaje} `
+
+
+    }
+
+    const handleChangeNombre = (e) => {
+        setNombre(e.target.value)
+    }
+
+    const handleChangeAsunto = (e) => {
+        setAsunto(e.target.value)
+    }
+    const handleChangeMensaje = (e) => {
+        setMensaje(e.target.value)
+    }
+
+
+
     return (
         <div id="contacto" className={styles.contacto}>
             <div className={styles.container}>
-                <form action="" className={styles.form}>
+                <form onSubmit={handleSubmit} className={styles.form}>
                     <h3>Contacto</h3>
                     <label for="fname">Nombre</label>
-                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre.." />
+                    <input required type="text" onChange={handleChangeNombre} placeholder="Tu nombre.." />
 
                     <label for="asunto">Asunto</label>
-                    <input type="text" id="asunto" name="asunto" placeholder="Asunto.." />
+                    <input required type="text" onChange={handleChangeAsunto} placeholder="Asunto.." />
 
                     <label for="mensaje">Mensaje</label>
-                    <textarea name="mensaje" id="mensaje" cols="20" rows="10" placeholder="Escriba su mensaje aqui" aria-label="mensaje" />
+                    <textarea required onChange={handleChangeMensaje} cols="20" rows="10" placeholder="Escriba su mensaje aqui" aria-label="mensaje" />
 
-                    <button type="submit">Enviar</button>
+                    <button type="submit" className={styles["boton-enviar"]} >Enviar</button>
                 </form>
 
                 <div className={styles.aside}>
