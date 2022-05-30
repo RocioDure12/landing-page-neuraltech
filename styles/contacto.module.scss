@@ -32,7 +32,13 @@
             border-radius: 6px;
             cursor: pointer;
         }
+
+        label{
+            color: $color-dark;
+            padding: 10px;
+        }
         .boton-enviar {
+            color: $color-ligth;
             text-align: center;
             border: none;
             margin-top: 10px;

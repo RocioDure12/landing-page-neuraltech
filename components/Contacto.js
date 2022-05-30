@@ -42,7 +42,7 @@ export default ({ }) => {
             <div className={styles.container}>
                 <form onSubmit={handleSubmit} className={styles.form}>
                     <h3>Contacto</h3>
-                    <label for="fname">Nombre</label>
+                    <label for="fname">Nombre y apellido</label>
                     <input required type="text" onChange={handleChangeNombre} placeholder="Tu nombre.." />
 
                     <label for="asunto">Asunto</label>
