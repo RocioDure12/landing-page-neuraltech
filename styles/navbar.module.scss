@@ -24,6 +24,7 @@
             a {
                 color: #ffff;
                 height: 100%;
+                cursor: pointer;
             }
         }
     }
@@ -70,6 +71,7 @@
     .menu a {
         display: block;
         padding: 10px;
+        cursor: pointer;
     }
     .menu {
         background: $color-primary;
@@ -91,5 +93,6 @@
         top: 10px;
         right: 10px;
         padding: 10px;
+        cursor: pointer;
     }
 }

@@ -17,8 +17,7 @@ export default ({ }) => {
     const [mensaje, setMensaje] = useState();
 
     const handleSubmit = (e) => {
-        e.preventDefault()
-        alert(nombre)
+        e.preventDefault();
         location.href = `https://api.whatsapp.com/send?phone=3434152661&text=*Nombre*: ${nombre}%0a*Consulta:* ${asunto}%0a*Descripcion:* ${mensaje} `
 
 
