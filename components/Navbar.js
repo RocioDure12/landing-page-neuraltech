@@ -21,12 +21,12 @@ export default () => {
 
         <>
             <div className={styles.appbar}>
-                <div onClick={toggleMenu}><FontAwesomeIcon icon={faBars} /></div>
+                <div onClick={toggleMenu}><FontAwesomeIcon icon={faBars}/></div>
                 <div><img alt="logo" src='images/neuraltech.png' /></div>
             </div>
-           
+
             <nav className={styles.menu} style={{ display: menuVisible ? 'block' : 'none' }}>
-               
+
                 <ul>
                     <li><a onClick={toggleMenu} href='#servicios'>Servicios</a></li>
                     <li><a onClick={toggleMenu} href="#certificaciones">Certificaciones</a></li>
