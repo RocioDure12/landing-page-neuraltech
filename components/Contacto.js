@@ -55,7 +55,7 @@ export default ({ }) => {
 
                 <div className={styles.aside}>
                     <h3>Redes</h3>
-                    <a href="mailto:contacto@neuraltech.com"><FontAwesomeIcon className={styles.icono} icon={faEnvelope}/> Correo electrónico</a>
+                    <a href="mailto:contacto@neuraltech.com"><FontAwesomeIcon className={styles.icono} icon={faEnvelope}/> contacto@neuraltech.com</a>
                     <a href='https://www.facebook.com/EmpresaNeuralTech'><FontAwesomeIcon className={styles.icono} icon={faFacebook} /> Facebook</a>
                     <a href="https://www.instagram.com/neuraltech_s.a"><FontAwesomeIcon className={styles.icono} icon={faInstagram} /> Instagram</a>
                     <a href='https://www.linkedin.com/company/neuraltech'><FontAwesomeIcon className={styles.icono} icon={faLinkedin} /> LinkedIn</a>
