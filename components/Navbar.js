@@ -6,6 +6,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 import React, { useState } from 'react';
+import Image from 'next/image'
 
 
 
@@ -22,7 +23,7 @@ export default () => {
         <>
             <div className={styles.appbar}>
                 <div onClick={toggleMenu}><FontAwesomeIcon icon={faBars}/></div>
-                <div><img alt="logo" src='images/neuraltech.png' /></div>
+                <div><Image alt="logo" src='images/neuraltech.png' /></div>
             </div>
 
             <nav className={styles.menu} style={{ display: menuVisible ? 'block' : 'none' }}>
@@ -39,7 +40,7 @@ export default () => {
             </nav>
 
             <nav className={styles["nav-bar"]}>
-                <div><img alt="logo" src='images/neuraltech.png' /></div>
+                <div><Image alt="logo" src='images/neuraltech.png' /></div>
                 <ul>
                     <li><a href='#servicios'>Servicios</a></li>
                     <li><a href="#certificaciones">Certificaciones</a></li>

@@ -41,13 +41,13 @@ export default ({ }) => {
             <div className={styles.container}>
                 <form onSubmit={handleSubmit} className={styles.form}>
                     <h3>Contacto</h3>
-                    <label for="fname">Nombre y apellido</label>
+                    <label htmlFor="fname">Nombre y apellido</label>
                     <input required type="text" onChange={handleChangeNombre} placeholder="Tu nombre.." />
 
-                    <label for="asunto">Asunto</label>
+                    <label htmlFor="asunto">Asunto</label>
                     <input required type="text" onChange={handleChangeAsunto} placeholder="Asunto.." />
 
-                    <label for="mensaje">Mensaje</label>
+                    <label htmlFor="mensaje">Mensaje</label>
                     <textarea required onChange={handleChangeMensaje} cols="20" rows="10" placeholder="Escriba su mensaje aqui" aria-label="mensaje" />
 
                     <button type="submit" className={styles["boton-enviar"]} >Enviar</button>

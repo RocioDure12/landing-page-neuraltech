@@ -1,4 +1,5 @@
 import styles from '../styles/clientes.module.scss';
+import Image from 'next/image'
 
 const Clientes = ({ }) => {
 
@@ -9,23 +10,23 @@ const Clientes = ({ }) => {
 
             <div className={styles.container}>
                 <div className={styles["container-img"]}>
-                    <img src="images/armaselektronik.jpg"></img>
+                    <Image src="images/armaselektronik.jpg" />
                 </div>
 
                 <div className={styles["container-img"]}>
-                    <img src="images/bioceanica.jpg"></img>
+                    <Image src="images/bioceanica.jpg" />
                 </div>
 
                 <div className={styles["container-img"]}>
-                    <img src="images/saimaseguridad.jpg"></img>
+                    <Image src="images/saimaseguridad.jpg" />
                 </div>
 
                 <div className={styles["container-img"]}>
-                    <img src="images/servicampo.jpeg"></img>
+                    <Image src="images/servicampo.jpeg" />
                 </div>
 
                 <div className={styles["container-img"]}>
-                    <img src="images/trafficsolutions.jpeg"></img>
+                    <Image src="images/trafficsolutions.jpeg" />
                 </div>
             </div>
 
