@@ -10,23 +10,23 @@ const Clientes = ({ }) => {
 
             <div className={styles.container}>
                 <div className={styles["container-img"]}>
-                    <Image src="images/armaselektronik.jpg" />
+                    <Image src="/images/armaselektronik.jpg" width='100%' height='100%' objectFit='contain'/>
                 </div>
 
                 <div className={styles["container-img"]}>
-                    <Image src="images/bioceanica.jpg" />
+                    <Image src="/images/bioceanica.jpg" width='100%' height='100%' objectFit='contain' />
                 </div>
 
                 <div className={styles["container-img"]}>
-                    <Image src="images/saimaseguridad.jpg" />
+                    <Image src="/images/saimaseguridad.jpg" width='100%' height='100%' objectFit='contain' />
                 </div>
 
                 <div className={styles["container-img"]}>
-                    <Image src="images/servicampo.jpeg" />
+                    <Image src="/images/servicampo.jpeg" width='100%' height='100%' objectFit='contain'/>
                 </div>
 
                 <div className={styles["container-img"]}>
-                    <Image src="images/trafficsolutions.jpeg" />
+                    <Image src="/images/trafficsolutions.jpeg" width='100%' height='100%' objectFit='contain'/>
                 </div>
             </div>
 
