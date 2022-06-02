@@ -1,6 +1,6 @@
 import styles from '../styles/clientes.module.scss';
 
-export default ({ }) => {
+const Clientes = ({ }) => {
 
     return (
 
@@ -33,3 +33,7 @@ export default ({ }) => {
         </div>
     )
 }
+
+Clientes.displayName = 'Clientes'
+
+export default Clientes

@@ -1,7 +1,7 @@
 import styles from '../styles/cardProducto.module.scss';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
-export default ({ icon, title, description }) => {
+const CardProducto = ({ icon, title, description }) => {
 
     return (
 
@@ -27,3 +27,7 @@ export default ({ icon, title, description }) => {
         </div>
     )
 }
+
+CardProducto.displayName = "CardProducto"
+
+export default CardProducto
