@@ -22,8 +22,8 @@ export default () => {
 
         <>
             <div className={styles.appbar}>
-                <div onClick={toggleMenu}><FontAwesomeIcon icon={faBars}/></div>
-                <div><Image alt="logo" width='100%' height='100%' objectFit='contain' src='/images/neuraltech.png' /></div>
+                <div onClick={toggleMenu}><FontAwesomeIcon icon={faBars} /></div>
+                <div><img alt="logo"src='images/neuraltech.png' /></div>
             </div>
 
             <nav className={styles.menu} style={{ display: menuVisible ? 'block' : 'none' }}>
@@ -40,7 +40,7 @@ export default () => {
             </nav>
 
             <nav className={styles["nav-bar"]}>
-                <div><Image alt="logo" src='/images/neuraltech.png'  width='100%' height='100%' objectFit='contain' /></div>
+                <div><img alt="logo" src='images/neuraltech.png' /></div>
                 <ul>
                     <li><a href='#servicios'>Servicios</a></li>
                     <li><a href="#certificaciones">Certificaciones</a></li>

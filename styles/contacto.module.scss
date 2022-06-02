@@ -21,6 +21,7 @@
             padding: 50px;
             h3 {
                 color: $color-dark;
+                margin-bottom: 8px;
             }
         }
         input,
@@ -31,11 +32,12 @@
             border: 1px solid gray;
             border-radius: 6px;
             cursor: pointer;
+            margin-bottom: 10px;
         }
 
         label {
             color: $color-dark;
-            padding: 10px;
+            margin-bottom: 5px;
         }
         .boton-enviar {
             color: $color-ligth;
@@ -57,12 +59,17 @@
         align-self: center;
         flex-direction: column;
         padding: 50px;
-
+        @media screen and (max-width: 768px) {
+                padding-left: 20px;
+                padding-right: 20px;
+            
+        }
         .icono {
             color: $color-primary;
         }
-        p,
-        a {
+
+        span,
+        a {    
             font-size: 18px;
             margin-top: 10px;
             line-height: 1.2;
@@ -71,7 +78,7 @@
         a:hover {
             color: $color-primary;
         }
-        p:hover {
+        span:hover {
             color: $color-primary;
         }
     }
